@@ -44,8 +44,8 @@ The REST API of the app is described below.
 `POST /specificCardProperties/create`
 
         https://rest-service-homework-task.herokuapp.com/rest/card/specificCardProperties/create?cardSchema=AMEX&cardHolderName=Shilpa&amount=30000
-		OR
-		https://rest-service-homework-task.herokuapp.com/rest/card/specificCardProperties/create?cardHolderName=Matt     
+	OR
+	https://rest-service-homework-task.herokuapp.com/rest/card/specificCardProperties/create?cardHolderName=Matt     
 
 ### Response
 
