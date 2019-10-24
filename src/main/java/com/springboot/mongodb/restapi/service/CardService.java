@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.springboot.mongodb.restapi.model.Card;
 import com.springboot.mongodb.restapi.repository.CardRepository;
@@ -14,6 +15,7 @@ public class CardService {
 	@Autowired
 	private CardRepository repository;
 	
+	@Transactional
 	public Card addCard(Card card){
 		return repository.save(card);
 	}
